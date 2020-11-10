@@ -1,8 +1,0 @@
--git clone https://github.com/sizuwanoadi/ide_entry_test.git
--cd ide_entry_test
--git branch secondary
--git checkout secondary
--git status
--git add .
--git commit -m "Add new feature: get pricelist."
--git push origin secondary

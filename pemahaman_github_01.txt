@@ -1,9 +1,0 @@
-git config --global user.email "email@example.com"
-git config --global user.name "Example Namei"
-git config --global credential.username "Example Name"
-git init
-git add 
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/sizuwanoadi/ide_entry_test.git
-git push -u origin main
