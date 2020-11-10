@@ -6,3 +6,6 @@
 -git add .
 -git commit -m "Add new feature: get pricelist."
 -git push origin secondary
+
+-Selanjutnya buka https://github.com/sizuwanoadi/ide_entry_test dan klik Pull Request
+-Silahkan tulis comment jika anda mau, dan setelah itu klik button "create pull request".
