@@ -1,0 +1,1 @@
+Dilihat dari penulisannya di soal nomor 2 "Pemahaman Style", bisa dibilang itu adalah syntax dari scss

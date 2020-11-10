@@ -1,0 +1,1 @@
+Langkah pertama, menyimpan informasi database sekunder pada berkas .env. Dan langkah selanjutnya, konfigurasi yang ada di berkas config/database.php ditambahkan pilihan 'secondary' dan nilainya diatur untuk mengambil informasi database sekunder dari .env.

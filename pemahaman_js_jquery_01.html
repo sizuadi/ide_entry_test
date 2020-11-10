@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pemahaman JS/JQuery 01</title>
+</head>
+
+<body>
+  <p id="demo"></p>
+</body>
+<script>
+  var names = ["Andi", { "Name": "Gunawan", "Address": "Jl. Kemerdekaan 01" }, "Budi"];
+
+  // Untuk mendapatkan hasil seperti di soal, karena ini berbentuk Array,
+  // dan Array dimulai dari 0, saya mengambil Array 1 untuk mengambil
+  // data yang diinginkan agar menampilkan nama "Gunawan"
+  console.log(names[1]);
+
+  document.getElementById("demo").textContent = names[1].Name;  
+</script>
+
+</html>

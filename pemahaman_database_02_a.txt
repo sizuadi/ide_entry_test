@@ -1,0 +1,17 @@
+Script sebelumnya tidak berhasil karena kurang titik koma pada penulisan akhir
+'2020-01-25') <- ada di sini kesalahannya
+
+INSERT INTO school (id, school_code, school_name, inaugurated_date)
+VALUES(1, 'SCH01', 'SCHOOL ABC', '2020-01-25') <- ada di sini kesalahannya
+
+INSERT INTO school (id, school_code, school_name, inaugurated_date)
+VALUES(3, 'SCH02', 'SCHOOL ABC', '2020-01-25') <- ada di sini kesalahannya
+
+INSERT INTO school (id, school_code, school_name, inaugurated_date)
+VALUES(4, 'SCH03', 'SCHOOL ABC', '2020-01-25') <- ada di sini kesalahannya
+
+INSERT INTO school (id, school_code, school_name, inaugurated_date)
+VALUES(2, 'SCH04', 'SCHOOL ABC', '2020-01-25') <- ada di sini kesalahannya
+
+INSERT INTO school (id, school_code, school_name, inaugurated_date)
+VALUES(5, 'SCH05', 'SCHOOL ABC', '2020-01-25') <- ada di sini kesalahannya

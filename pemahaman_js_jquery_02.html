@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pemahaman JS/JQuery 02</title>
+  <style>
+    #loadingGif {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: -webkit-translate(-50%, -50%);
+      transform: -moz-translate(-50%, -50%);
+      transform: -ms-translate(-50%, -50%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="loadingGif">
+    <img alt="actvity indicator"
+      src="https://media2.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif?cid=ecf05e4732zuraf7o2k97uvsml73y640uuav7mj9eespgl5r&rid=giphy.gif">
+  </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $("#loadingGif").show();
+  $.ajax({
+    url: "https://test-ujian-masuk.infraedukasi.com",
+    cache: false,
+    complete: function () {
+      $("#loadingGif").hide();
+    }
+  })
+</script>
+
+</html>
